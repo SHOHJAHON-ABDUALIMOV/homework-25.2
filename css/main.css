@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #dcdcdc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.container .box {
+  width: 1320px;
+  height: 1080px;
+  background: url(../images/background.svg);
+}
+.container .box .header .header_logo {
+  margin-left: 600.29px;
+  margin-top: 73px;
+}
+.container .box .middle {
+  margin-left: 500px;
+  margin-top: 195px;
+}
+.container .box .middle span {
+  text-align: center;
+  width: 360px;
+  height: 230px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 103px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.container .box .middle p {
+  margin-left: -90px;
+  margin-bottom: 53px;
+  width: 580px;
+  height: 112px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 41px;
+  text-align: center;
+  color: #fff;
+}
+.container .box .section {
+  margin-bottom: 200px;
+  width: 582px;
+  height: 66px;
+  margin-left: 450px;
+}
+.container .box .section input {
+  border-radius: 60px;
+  width: 400px;
+  height: 66px;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+.container .box .section .input::-moz-placeholder {
+  padding-left: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(93, 90, 90, 0.63);
+}
+.container .box .section .input::placeholder {
+  padding-left: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(93, 90, 90, 0.63);
+}
+.container .box .section button {
+  font-family: "Open Sans", sans-serif;
+  border: 5px solid #000;
+  border-radius: 60px;
+  width: 132px;
+  height: 66px;
+  border: none;
+  outline: none;
+  background: #000;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+}
+.container .box .footer {
+  margin-left: 550px;
+}/*# sourceMappingURL=main.css.map */
